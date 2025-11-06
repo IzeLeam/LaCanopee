@@ -1,36 +1,67 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🦥 La Canopée - Site Vitrine
 
-First, run the development server:
+Site vitrine professionnel pour une entreprise de massage bien-être et massage pour femmes enceintes.
+
+## 🎨 Design
+
+- **Thème** : La canopée, habitat naturel du paresseux (symbole de détente)
+- **Couleurs** : Fond blanc avec des verts doux et naturels (#a8c69f, #d4e7cf, #7a9e6f)
+- **Style** : Professionnel, épuré et apaisant
+- **Typographie** : 
+  - Playfair Display (titres)
+  - Inter (texte)
+
+## 📋 Sections
+
+1. **Hero Section** - Page d'accueil avec un message accueillant
+2. **Services** - Présentation des différents types de massages
+3. **Tarifs** - Grille de prix transparente avec options
+4. **Contact** - Coordonnées et horaires d'ouverture
+
+## 🚀 Démarrage
 
 ```bash
+# Installation des dépendances
+npm install
+
+# Lancement du serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15** - Framework React
+- **TypeScript** - Typage statique
+- **Tailwind CSS 4** - Styles utilitaires
+- **Lucide React** - Icônes modernes
+- **Google Fonts** - Playfair Display & Inter
 
-## Learn More
+## 📝 Personnalisation
 
-To learn more about Next.js, take a look at the following resources:
+Pour personnaliser le site, modifiez :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Coordonnées** : `src/components/Contact.tsx`
+- **Services** : `src/components/Services.tsx`
+- **Tarifs** : `src/components/Pricing.tsx`
+- **Couleurs** : `src/app/globals.css` (variables CSS)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Responsive
 
-## Deploy on Vercel
+Le site est entièrement responsive et s'adapte à tous les écrans (mobile, tablette, desktop).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Fonctionnalités
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✅ Navigation fluide avec ancres
+- ✅ Menu mobile hamburger
+- ✅ Animations et transitions douces
+- ✅ Scrollbar personnalisée
+- ✅ Optimisé SEO
+- ✅ Performance optimisée
+
+---
+
+Fait avec 💚 pour La Canopée
